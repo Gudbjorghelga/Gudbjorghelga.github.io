@@ -10,5 +10,5 @@ function setup(){
     rect(250,280,50,50);
     fill(150,50,155)
     textSize(30);
-    text("Halló heimur",180,40);
+    text("Halló heimur",180,50);
     text("Guðbjörg",210,560)}
