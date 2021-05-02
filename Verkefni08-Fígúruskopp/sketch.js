@@ -19,13 +19,13 @@ function draw() {
     musY = musY + hradiY;
     if (abs(musX - width/2)> width/2){
       hradiX = -1*hradiX;
-      musbukur = random (50,200);
+      musbukur = random (100,200);
       musaugu = random (17,20);
       musmunnur = random (17,20);
     }
     if (abs(musY - height/2)> height/2){
       hradiY = -1*hradiY;
-      musbukur = random (50,200);
+      musbukur = random (100,200);
       musaugu = random (17,20);
       musmunnur = random (17,20);
     }

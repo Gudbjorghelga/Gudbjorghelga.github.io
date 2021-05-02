@@ -7,6 +7,10 @@ function setup() {
   fill(0);
   colorMode(HSB);
   frameRate(5);
+  noStroke(0)
+  textFont("Courier New",16);
+  textStyle(BOLD);
+  textSize(52);
 }
 
 function draw(){
@@ -15,5 +19,6 @@ function draw(){
     for(var y = -10; y < height; y = y+50){
     ellipse(x,y + x*1, 15, 15);
      fill(random(0,360),75,200)}
+     text("Vor 2021" ,300,100)
     }
   }
