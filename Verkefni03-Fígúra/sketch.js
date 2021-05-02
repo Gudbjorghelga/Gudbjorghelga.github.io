@@ -40,10 +40,3 @@ function mousePressed() {
   augu = random (15,20);
   munnur = random (15,25);
 }
-// Teiknum fæturna
- line (mouseX - 20, mouseY + bukur/2, mouseX - 20, mouseY + bukur/2 + 50);
- line (mouseX + 20, mouseY + bukur/2, mouseX + 20, mouseY + bukur/2 + 50);
- triangle(mouseX + 20, mouseY + bukur/2, mouseX + 20, mouseY + bukur/2 - 10,30)
- fill(144,144,142)//fætur
- ellipse (mouseX - 30,mouseY + 150 - bukur/2, 40,30);
- ellipse (mouseX + 30,mouseY + 150 - bukur/2, 40,30);
